@@ -1,0 +1,17 @@
+expressjs is node js framework.....most used frame work..
+expressjs is a web application framework which provides API to build website....web app and backends...
+....multipage wesite single page website...all can be create with the help of expressjs
+
+Middleware System:
+ Express uses middleware, which are functions that have access to the request and response objects. Middleware can perform various tasks such as authentication, logging, parsing request bodies, etc. This modular approach makes it easy to add, remove, or modify functionality in the request-response cycle.
+
+ Routing:
+
+Routing System: Express provides a simple and effective routing mechanism. You can define routes for different HTTP methods and URL patterns, making it easy to organize and handle various parts of your application.
+HTTP Utility Methods:
+
+HTTP Utility Methods: Express simplifies the handling of HTTP methods (GET, POST, PUT, DELETE, etc.) and parameters. This makes it easier to work with the specifics of HTTP, and it abstracts away some of the complexities.
+
+Integration with Other Libraries:
+
+Integration with Other Libraries: Express can easily be integrated with other Node.js libraries and modules, allowing developers to leverage a wide range of tools and functionality for different aspects of their application.
