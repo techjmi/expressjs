@@ -15,3 +15,8 @@ HTTP Utility Methods: Express simplifies the handling of HTTP methods (GET, POST
 Integration with Other Libraries:
 
 Integration with Other Libraries: Express can easily be integrated with other Node.js libraries and modules, allowing developers to leverage a wide range of tools and functionality for different aspects of their application.
+..... in simple words all work done by nodejs simply can be done by expressjs in fast and secure way
+
+
+
+node Modules Files tells us about.....all the dependencies to run project like...express, nodejs etc

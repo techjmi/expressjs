@@ -1,0 +1,35 @@
+to get a dynamics website we use template engine
+or in simple in express of we want paly with dynamic data in case we use template engine
+
+A template engine is a software module or library designed to help developers generate dynamic content by embedding logic and variables into static templates. These engines allow you to define templates that include placeholders or special syntax, and then, at runtime, these templates get rendered with actual data to produce a final output, often in the form of HTML, XML, or other markup languages.
+
+
+Template: A template is a static structure with placeholders or special syntax to indicate where dynamic data should be inserted.
+
+Variables: Variables represent dynamic data that will replace placeholders in the template. The actual values for these variables are provided at runtime.
+
+Logic: Some template engines allow the inclusion of simple logic constructs, such as conditionals and loops, to control the flow of the template rendering process.
+
+Rendering: Rendering is the process of combining a template with actual data to produce the final output. This is often done on the server side, but some modern template engines also support client-
+
+
+popular template
+
+EJS (Embedded JavaScript): EJS allows embedding JavaScript code directly into templates.
+
+Handlebars: Handlebars is a minimalistic template engine that uses a syntax similar to Mustache but includes additional features.
+
+Pug (formerly Jade): Pug is a template engine with a concise syntax that emphasizes indentation and uses significant white space.
+
+Mustache: Mustache is a logic-less template syntax. It works by expanding tags in a template with values provided in a hash or object.
+
+Jinja2: While primarily used with Python, Jinja2 is a popular template engine for server-side rendering in web frameworks like Flask.
+
+
+
+Template engines are commonly used in web development frameworks to build dynamic web pages, where content varies based on user input, database queries, or other dynamic factors. They facilitate the separation of concerns, making it easier to manage and update the presentation layer of an application independently of the underlying logic.
+
+
+
+
+hbs stands for Handlebars, which is a popular template engine for JavaScript. Handlebars provides a semantic templating language that allows you to write templates with placeholders that get replaced with actual values when rendering. The syntax is designed to be simple and readable.

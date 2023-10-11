@@ -1,0 +1,25 @@
+const path = require("path");
+const express = require('express');
+const app = express();
+
+console.log(__dirname); // This is called the wrapper function. It returns the path of the file.
+
+// Use path.join to get the correct absolute path to the 'public' folder
+const staticPath = path.join(__dirname, "../public"); to go inside public...
+console.log(staticPath); // Optionally, log the staticPath to verify it's correct
+
+// Use express.static with the correct staticPath
+app.use(express.static(staticPath));
+
+// Create routing
+app.get('/', (req, res) => {
+    res.send('Hello, this is the homepage of expressJS!');
+});
+
+app.get('/about', (req, res) => {
+    res.send('Hello, this is the homepage of About!');
+});
+
+app.listen(8001, () => {
+    console.log("Listening on port 8001");
+});

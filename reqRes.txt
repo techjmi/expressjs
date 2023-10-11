@@ -1,0 +1,12 @@
+req (Request):
+
+The req object represents the incoming HTTP request from the client, containing information about the request such as the URL, HTTP method (GET, POST, etc.), headers, and any data sent in the request body.
+
+Developers use req to access information about the client's request and use it to make decisions or perform actions based on that information.
+
+
+res (Response):
+
+The res object represents the server's response to the client's request. Developers use this object to send back the response to the client, including data, status codes, headers, etc.
+
+The res object has various methods to send different types of responses. For example, res.send() is commonly used to send a response with data, and res.status() can be used to set the HTTP status code of the response.
